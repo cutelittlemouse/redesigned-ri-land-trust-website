@@ -1,0 +1,161 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Noto Serif', serif;
+}
+
+
+.nav-bar {
+    background-color: #109248;
+    width: 30%;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav-border{
+    border-bottom: 2px solid white;
+}
+.nav-border2{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+} 
+h3 {
+    text-align: center;
+    color: white;
+}
+.login{
+    padding-top: 60%;
+    padding-bottom: 80%;
+    font-size: 4vw;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+li a {
+    font-size: 2vw;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+#information {
+    background-image: url(images/background.png);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;   
+    height: auto;
+}
+#contacts {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#contacts_info {
+    line-height: 2;
+    flex-wrap: wrap;
+}
+#contacts_title {
+    margin-left: 10%;
+}
+#bottom {
+    height: 20px;
+
+    background-color: #109248;
+}
+#social_media{
+    width: 180px
+}
+.winter {
+    position:relative
+}
+.winter::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+.winter-img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 20%
+}
+
+.o_button {
+    background-color: orange;
+    color: black;
+}
+.o_button:hover {
+    background-color: orange;
+    opacity: 80%;
+    color: black;
+}
+
+.title_img_1 {
+    margin-top: 60%;
+    border-radius: 20%;
+    width: auto;
+    height: 30rem;
+    object-fit: cover;
+}
+.title_img_2 {
+    margin-top: 20%;
+    border-radius: 20%;
+    width: auto;
+    height: 30rem;
+    object-fit: cover;
+}
+.title_img_3 {
+    margin-top: 40%;
+    border-radius: 20%;
+    width: auto;
+    height: 30rem;
+    object-fit: cover;
+}
+
+.menu:hover{
+    color: rgb(255, 255, 255);
+    opacity: 80%;
+
+}
+.main_para {
+    padding-top: 5%;
+    padding-bottom: 40%;
+}
+p {
+    color:rgb(0, 0, 0);
+}
+.ri_walks {
+    margin-top: -20%;
+}
+.blokk {
+    background-color: #e3ffb6cc;
+    border-radius: 5%;
+}
